@@ -50,6 +50,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Menu"/>
+                                <connections>
+                                    <action selector="menuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="um8-7q-zTf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwL-Dj-B4G">
                                 <rect key="frame" x="327" y="152" width="57" height="35"/>
@@ -60,8 +63,8 @@
                                     <action selector="cartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvA-Fg-pai"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to your Cart!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc3-fi-bOg">
-                                <rect key="frame" x="131" y="233" width="130" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add to your Cart!" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc3-fi-bOg">
+                                <rect key="frame" x="16" y="233" width="368" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -72,15 +75,15 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
                     <connections>
-                        <outlet property="itemTextField" destination="Ydt-ZX-kVh" id="dAO-T7-gHl"/>
+                        <outlet property="itemTextField1" destination="Ydt-ZX-kVh" id="ZZm-3c-3Us"/>
+                        <outlet property="itemTextField2" destination="KtC-3T-1LB" id="wAp-Xv-JRK"/>
                         <outlet property="label1" destination="nc3-fi-bOg" id="esy-h6-zT9"/>
-                        <outlet property="textField2" destination="KtC-3T-1LB" id="PMF-70-Tsr"/>
                         <outlet property="textView1" destination="gTk-Rd-P9i" id="Ghk-D0-g3d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
